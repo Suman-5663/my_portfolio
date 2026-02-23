@@ -182,7 +182,6 @@ const Contact = () => {
           </Suspense>
         </Canvas>
       </div>
-    <Footer />
     </section>
   )
 }
