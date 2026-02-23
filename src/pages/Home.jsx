@@ -21,7 +21,7 @@ const Home = () => {
   useEffect(() => {
     const audio = new Audio(sakura)
     audio.loop = true
-    audio.volume = 0.005
+    audio.volume = 0.5
     audioRef.current = audio
 
     // ✅ Cleanup when leaving Home page
